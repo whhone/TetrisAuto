@@ -1,11 +1,20 @@
+/* Judge is the class for deciding what to do */
 
 public class Judge {
-	static int emptyCost = 12;
+	
+	/* cost for an empty square below a tetris */
+	static int emptyCost = 12; 
+
+	/* cost for the height */
 	static int heightCost = 1;
+
+	/* cost for the different between two column */
 	static int diffCost = 1;
+
 	static int lastClear = 0;
 	static int thisClear = 0;
-	
+
+
 	static public int utility(boolean[][] block){
 		boolean[] del = new boolean[20];
 		int ret = 0;

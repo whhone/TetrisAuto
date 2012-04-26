@@ -10,5 +10,6 @@ all: \
 	javac src/*.java -cp bin
 
 clean:	
-	rm bin/*
+#	rm bin/*.class
+	rm src/*.class
 

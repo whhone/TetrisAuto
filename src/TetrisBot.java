@@ -1,3 +1,6 @@
+// TetrisBot extends the java.awt.Robot which is able to 
+// read pixel from screen and control the mouse and keyboard. 
+
 import java.awt.AWTException;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
@@ -48,6 +51,7 @@ public class TetrisBot extends Robot {
 	public void hold(){
 		this.keyTouch(KeyEvent.VK_SHIFT);
 	}
+
 	public void rotate(int cnt){
 		if (cnt==3) this.keyTouch(KeyEvent.VK_Z);
 		else{

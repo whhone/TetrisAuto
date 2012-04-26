@@ -1,7 +1,11 @@
+/* Analyse the screen captured by TetrisBot */
+
 import java.awt.Color;
 import java.awt.image.BufferedImage;
 
 public class Viewer{
+
+	/* the lenght of a square in the game */
 	int d = 18;
 	
 	public boolean[][] block;

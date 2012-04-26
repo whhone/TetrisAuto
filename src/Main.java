@@ -1,3 +1,5 @@
+/* Main.main is the entry of the TetrisAuto */
+
 import java.awt.AWTException;
 
 public class Main {
@@ -7,7 +9,6 @@ public class Main {
 			TetrisBot tr = new TetrisBot();
 			for (int i=1;i<=1;++i){
 				tr.Test();
-			//	System.out.println(((char) 27)+"[2J");
 			}
 		}catch(AWTException e){
 			e.printStackTrace();
