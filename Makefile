@@ -7,7 +7,7 @@ all: \
 	src/Viewer.java \
 	src/Main.java \
 	src/TetrisBot.java
-	javac src/*.java -cp bin
+	javac src/*.java -d ./bin
 
 clean:	
 #	rm bin/*.class
